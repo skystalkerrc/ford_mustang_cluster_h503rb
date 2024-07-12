@@ -22,7 +22,7 @@ Second, use a brute force method to find some more frames and there are always m
 # Track Apps<sup>TM</sup>
 Some versions of that IPC have Track Apps<sup>TM</sup> installed, or maybe all of them but I was able to activate it only in some of them. The app visualizes e.g. acceleration/deceleration of the car. Hacking this app is my small addition to the overall set of frames published in the sources I'm aware of.
 
-![Ford Mustang (S550) 2016 instrument panel cluster](/Assets/Images/ford_mustang_university_lab.JPG)
+![Ford Mustang (S550) 2016 instrument panel cluster](/Assets/Images/ford_mustang_university_lab.jpg)
 
 # Missing files?
 Don't worry :slightly_smiling_face: Just hit Alt-K to generate /Drivers/CMCIS/ and /Drivers/STM32G4xx_HAL_Driver/ based on the .ioc file. After a couple of seconds your project will be ready for building.
