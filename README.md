@@ -25,7 +25,7 @@ Some versions of that IPC have Track Apps<sup>TM</sup> installed, or maybe all o
 ![Ford Mustang (S550) 2016 instrument panel cluster](/Assets/Images/ford_mustang_university_lab.jpg)
 
 # Missing files?
-Don't worry :slightly_smiling_face: Just hit Alt-K to generate /Drivers/CMCIS/ and /Drivers/STM32G4xx_HAL_Driver/ based on the .ioc file. After a couple of seconds your project will be ready for building.
+Don't worry :slightly_smiling_face: Just hit Alt-K to generate /Drivers/CMCIS/ and /Drivers/STM32H5xx_HAL_Driver/ based on the .ioc file. After a couple of seconds your project will be ready for building.
 
 # Tools
 Some IPCs also sent their own frames. For example, when you navigate the menu on your IPC it may distribute your choices to other components of the system such as the center console. In our case the instrument cluster shares the information about your preferences regarding e.g. temperature and distance units. It is convenient to use a bus sniffer to catch that part of the communication. Here are some tools from my home lab that work for me:
@@ -55,7 +55,7 @@ Source: cardiagn.com
 
 # Sources and inspirations
 * [MattechPC](https://www.youtube.com/@MattechPC) (in Polish)
-* [Ford Mustang (S550) CAN Bus Research & Scripts](https://github.com/EricTurner3/s550-canbus). This repo made me buy the cluster :sunglasses: Thank you Eric Turner :exclamation:
+* [Ford Mustang (S550) CAN Bus Research & Scripts](https://github.com/EricTurner3/s550-canbus). This repo made me buy the cluster :sunglasses: Thank you, Eric Turner :exclamation:
 * [parse_can_logs](https://github.com/v-ivanyshyn/parse_can_logs/blob/master/Ford%20CAN%20IDs%20Summary.md) (MIT license)
 * OLED: [stm32-ssd1306](https://github.com/afiskon/stm32-ssd1306) (MIT license)
 
@@ -63,7 +63,7 @@ Source: cardiagn.com
 Build your own [home laboratory/workshop](http://ufnalski.edu.pl/control_engineering_for_hobbyists/2024_dzien_otwarty_we/Dzien_Otwarty_WE_2024_Control_Engineering_for_Hobbyists.pdf)! Get inspired by [ControllersTech](https://www.youtube.com/@ControllersTech), [DroneBot Workshop](https://www.youtube.com/@Dronebotworkshop), [Andreas Spiess](https://www.youtube.com/@AndreasSpiess), [GreatScott!](https://www.youtube.com/@greatscottlab), [ElectroBOOM](https://www.youtube.com/@ElectroBOOM), [Phil's Lab](https://www.youtube.com/@PhilsLab), [atomic14](https://www.youtube.com/@atomic14), [That Project](https://www.youtube.com/@ThatProject), [Paul McWhorter](https://www.youtube.com/@paulmcwhorter), and many other professional hobbyists sharing their awesome projects and tutorials! Shout-out/kudos to all of them!
 
 > [!WARNING]
-> Control engineering - try this at home :exclamation:
+> Control engineering - do try this at home :exclamation:
 
 190+ challenges to start from: [Control Engineering for Hobbyists at the Warsaw University of Technology](http://ufnalski.edu.pl/control_engineering_for_hobbyists/Control_Engineering_for_Hobbyists_list_of_challenges.pdf).
 
